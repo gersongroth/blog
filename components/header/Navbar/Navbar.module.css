@@ -1,0 +1,50 @@
+.root {
+  @apply absolute;
+  @apply top-0;
+  @apply z-40;
+  @apply transition-all;
+  @apply duration-150;
+
+  @apply px-14;
+  width: 100%;
+
+}
+
+.link {
+  @apply inline-flex;
+  @apply items-center;
+  @apply text-primary;
+  @apply leading-6;
+  @apply font-medium;
+  @apply transition;
+  @apply ease-in-out;
+  @apply duration-75;
+  @apply cursor-pointer;
+  @apply text-accents-6;
+}
+
+.link:hover {
+  @apply text-accents-9;
+}
+
+.link:focus {
+  @apply outline-none;
+  @apply text-accents-8;
+}
+
+.logo {
+  height: 65px;
+  width: 130px;
+
+  @apply cursor-pointer;
+  @apply rounded-full;
+  @apply transform;
+  @apply duration-100;
+  @apply ease-in-out;
+
+  &:hover {
+    @apply shadow-md;
+    transform: scale(1.05);
+  }
+}
+

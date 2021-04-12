@@ -120,3 +120,13 @@
     flex-direction: column;
   }
 }
+
+.top {
+  @apply relative;
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url('//4.bp.blogspot.com/-jNaAcpKiW1Y/W4tUnWq5ubI/AAAAAAAAFTQ/muW5Omj8PawKQxX7ks43Mf9WycidPPhVQCK4BGAYYCw/s1600/dev-647424-unsplash.jpg');
+}

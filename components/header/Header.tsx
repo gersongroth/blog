@@ -1,7 +1,7 @@
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
 
 const Header = ({ className = '', ...props }) => (
-  <header>
+  <header className="container">
     <Navbar />
   </header>
 );

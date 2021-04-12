@@ -1,0 +1,36 @@
+.menuIcon {
+  @apply p-1;
+  @apply relative;
+
+  width: 40px;
+}
+
+.height {
+  position: relative;
+    display: block;
+    padding-top: 61.8%;
+}
+
+.bar {
+  @apply absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  background-color: var(--primary);
+  transition: all .3s ease;
+  height: 2px;
+
+  &:first-child {
+    top: 0;
+  }
+
+  &:last-child {
+    bottom: 0;
+  }
+
+  &:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
